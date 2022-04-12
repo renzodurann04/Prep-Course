@@ -16,7 +16,7 @@ const {
   agregarMetodoCalculoDescuento
 } = require('../homework');
 
-describe('crearGato(nombre, edad)', function() {
+describe ('crearGato(nombre, edad)', function() {
   it('should create a new cat with the nombre and edad properties set', function() {
     expect(crearGato('Snowball', 1).nombre).toBe('Snowball');
     expect(crearGato('Snowball', 1).edad).toBe(1);
@@ -28,7 +28,7 @@ describe('crearGato(nombre, edad)', function() {
   });
 });
 
-describe('agregarPropiedad(object, property)', function() {
+describe.only('agregarPropiedad(object, property)', function() {
   it('should add the property to the object with a value of null', function() {
     const object = {
       x: 1,
