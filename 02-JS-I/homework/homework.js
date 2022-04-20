@@ -88,7 +88,7 @@ function mayorQueCincuenta(num) {
   // Tu código:
   if (num>50) return true;
   else return false;
-}
+} 
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
