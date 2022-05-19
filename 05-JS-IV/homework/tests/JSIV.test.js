@@ -28,7 +28,7 @@ describe ('crearGato(nombre, edad)', function() {
   });
 });
 
-describe.only('agregarPropiedad(object, property)', function() {
+describe('agregarPropiedad(object, property)', function() {
   it('should add the property to the object with a value of null', function() {
     const object = {
       x: 1,
